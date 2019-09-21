@@ -15,3 +15,20 @@ elif a==b or b==c or c==a:
 	print("isosceles triangle")
 else:
 	print("Scalene triangle")
+
+
+#******************************************* centroid of triangle*****
+# To find  the centroid of triangle 	 
+if __name__ == "__main__" : 
+
+	# coordinate of the vertices 
+	x1, x2, x3 = 2, 6, 12
+	y1, y2, y3 = 4, -8, -14
+	
+	# Formula to calculate centroid 
+	x = round((x1 + x2 + x3) / 3, 1) 
+	y = round((y1 + y2 + y3) / 3, 1) 
+
+	print("Centroid =","(",x,",",y,")") 
+
+
